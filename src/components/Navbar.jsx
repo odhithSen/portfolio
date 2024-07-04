@@ -27,9 +27,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9" />
+          <img src={logo} alt="logo" className="w-12 h-12" />
           <p
-            className="text-white text-[18px] 
+            className="text-white text-[16px] 
           font-bold cursor-pointer"
           >
             Odhith Senevirathne

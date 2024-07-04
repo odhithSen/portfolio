@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className="paddingX absolute inset-0 top-[80px] md:top-[150px] max-w-7xl 
+        className="paddingX absolute inset-0 top-[90px] md:top-[150px] max-w-7xl 
         mx-auto flex flex-col md:flex-row items-center md:items-start gap-5"
       >
         <img
