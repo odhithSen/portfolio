@@ -137,7 +137,7 @@ import {
       date: "Jan 2019 - Present",
       points: [
         "co-founded Lanka 3D Printing, a company based in Colombo, Sri Lanka, specializing in 3D printing and industrial designing.",
-        "Involved in industrial automation, 3D designinig and manufacturing.",
+        "Designed and developed 3D models for a variety of industries, including automotive, medical, and consumer goods.",
         "Developed the company's website."
       ],
     },
@@ -149,8 +149,9 @@ import {
       iconBg: "#FFFFFF",
       date: "Jan 2014 - Jan 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Engineered and built robots from scratch for different applications, focusing on both hardware and software components.",
+        "Developed robust and efficient circuits, enhancing the robots' performance and reliability.",
+        "Gained hands-on experience in robotics engineering, circuit design, mechanical design, and competitive robotics."
       ],
     },
   ];
