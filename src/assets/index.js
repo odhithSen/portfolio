@@ -20,7 +20,25 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
+import arduino from "./tech/arduino.png";
+import asgardeo from "./tech/asgardeo.svg";
+import axios from "./tech/axios.png";
+import ballerina from "./tech/ballerina.svg";
+import choreo from "./tech/choreo.svg";
+import degitalOcean from "./tech/digitalOcean.png";
+import fusion from "./tech/fusion.png";
+import gitHub from "./tech/gitHub.png";
+import githubActions from "./tech/githubActions.png";
+import graphQl from "./tech/graphQL.png";
+import java from "./tech/java.png";
+import kubernetes from "./tech/kubernetes.png";
+import mysql from "./tech/mysql.svg";
+import postman from "./tech/postman.png";
+import python from "./tech/python.png";
+import rLang from "./tech/rLang.png";
+import solidWorks from "./tech/solidworks.png";
+import vite from "./tech/vitejs.svg";
 
 import L3DP from "./company/L3dp.jpg";
 import WSO2 from "./company/Wso2.jpeg";
@@ -53,6 +71,24 @@ export {
   tailwind,
   typescript,
   threejs,
+  arduino,
+  asgardeo,
+  axios,
+  ballerina,
+  choreo,
+  degitalOcean,
+  fusion,
+  gitHub,
+  githubActions,
+  graphQl,
+  java,
+  kubernetes,
+  mysql,
+  postman,
+  python,
+  rLang,
+  solidWorks,
+  vite,
   L3DP,
   WSO2,
   OPRobotics,
