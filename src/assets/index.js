@@ -44,6 +44,7 @@ import L3DP from "./company/L3dp.jpg";
 import WSO2 from "./company/Wso2.jpeg";
 import OPRobotics from "./company/OPRobotics.png";
 
+import appStore from "./appStore.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -92,6 +93,7 @@ export {
   L3DP,
   WSO2,
   OPRobotics,
+  appStore,
   carrent,
   jobit,
   tripguide,

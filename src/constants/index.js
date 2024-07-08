@@ -3,6 +3,7 @@ import {
   backend,
   creator,
   web,
+  github,
   javascript,
   typescript,
   html,
@@ -36,6 +37,7 @@ import {
   OPRobotics,
   L3DP,
   WSO2,
+  appStore,
   carrent,
   jobit,
   tripguide,
@@ -85,7 +87,7 @@ const technologies = [
     name: "python",
     icon: python,
   },
-  
+
   {
     name: "ballerina",
     icon: ballerina,
@@ -202,15 +204,8 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  
-  
-  
-  
-  
-  
-  
-  
 
+  // add ml related technologies here
 ];
 
 const experiences = [
@@ -285,26 +280,90 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "WSO2 App Store",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This project aimed to revamp the existing dashboard listing app to create the new app store.",
+
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "Ballerina",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "Javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Asgardeo",
+        color: "orange-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: appStore,
+    link: "https://apps.wso2.com/",
+    icon: WSO2,
+    iconBg: "white-gradient",
   },
+  {
+    name: "WSO2 Email Group Manager",
+    description:
+      "This project focused on modernising the front end of the existing Email Group Manager App to create version 2 of the application.",
+
+    tags: [
+      {
+        name: "Javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Asgardeo",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: appStore,
+    link: "https://apps.wso2.com/",
+    icon: WSO2,
+    iconBg: "white-gradient",
+  },
+  {
+    name: "WSO2 Expense Management App",
+    description:
+      "This project was focused on integrating the funding source split concept for travel and credit card expense claims. ",
+
+    tags: [
+      {
+        name: "Ballerina",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SuiteScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: appStore,
+    link: "https://apps.wso2.com/",
+    icon: WSO2,
+    iconBg: "white-gradient",
+  },
+
   {
     name: "Job IT",
     description:
@@ -323,8 +382,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: appStore,
+    link: "",
+    icon: WSO2,
+    iconBg: "#FFFFFF",
   },
   {
     name: "Trip Guide",
@@ -344,8 +405,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: appStore,
+    link: "",
+    icon: github,
+    iconBg: "black-gradient",
   },
 ];
 
