@@ -45,6 +45,13 @@ import WSO2 from "./company/Wso2.jpeg";
 import OPRobotics from "./company/OPRobotics.png";
 
 import appStore from "./appStore.png";
+import emailManager from "./emailManager.png";
+import ema from "./ema.png";
+import travel from "./travel.png";
+import costlytical from "./costlytical.png";
+import hashvault from "./hashvault.png";
+
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -94,6 +101,11 @@ export {
   WSO2,
   OPRobotics,
   appStore,
+  ema,
+  emailManager,
+  travel,
+  costlytical,
+  hashvault,
   carrent,
   jobit,
   tripguide,

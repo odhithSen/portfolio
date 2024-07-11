@@ -34,14 +34,16 @@ import {
   rLang,
   solidWorks,
   vite,
+  threejs,
   OPRobotics,
   L3DP,
   WSO2,
   appStore,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  emailManager,
+  ema,
+  travel,
+  costlytical,
+  hashvault,
 } from "../assets";
 
 export const navLinks = [
@@ -52,6 +54,10 @@ export const navLinks = [
   {
     id: "projects",
     title: "Projects",
+  },
+  {
+    id: "research",
+    title: "Research",
   },
   {
     id: "contact",
@@ -301,6 +307,10 @@ const projects = [
         name: "Asgardeo",
         color: "orange-text-gradient",
       },
+      {
+        name: "MySQL",
+        color: "blue-text-gradient",
+      },
     ],
     image: appStore,
     link: "https://apps.wso2.com/",
@@ -308,26 +318,30 @@ const projects = [
     iconBg: "white-gradient",
   },
   {
-    name: "WSO2 Email Group Manager",
+    name: " WSO2 Travel App",
     description:
-      "This project focused on modernising the front end of the existing Email Group Manager App to create version 2 of the application.",
+      "This project was focused on creating a new REST service to add travel-related invoices to the NetSuite SOR and to integrate the concept of funding source split for travel invoices.",
 
     tags: [
+      {
+        name: "Ballerina",
+        color: "green-text-gradient",
+      },
       {
         name: "Javascript",
         color: "yellow-text-gradient",
       },
       {
-        name: "React",
-        color: "blue-text-gradient",
+        name: "SuiteScript",
+        color: "pink-text-gradient",
       },
       {
-        name: "Asgardeo",
-        color: "orange-text-gradient",
+        name: "MySQL",
+        color: "blue-text-gradient",
       },
     ],
-    image: appStore,
-    link: "https://apps.wso2.com/",
+    image: travel,
+    link: "https://travel.wso2.com/",
     icon: WSO2,
     iconBg: "white-gradient",
   },
@@ -358,55 +372,78 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: appStore,
-    link: "https://apps.wso2.com/",
+    image: ema,
+    link: "https://ema.wso2.com/",
     icon: WSO2,
     iconBg: "white-gradient",
   },
-
   {
-    name: "Job IT",
+    name: "WSO2 Email Group Manager",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This project focused on modernising the front end of the existing Email Group Manager App to create version 2 of the application.",
+
     tags: [
       {
-        name: "react",
+        name: "Javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "Asgardeo",
+        color: "orange-text-gradient",
       },
     ],
-    image: appStore,
-    link: "",
+    image: emailManager,
+    link: "https://email-group-manager.wso2.com/",
     icon: WSO2,
-    iconBg: "#FFFFFF",
+    iconBg: "white-gradient",
   },
   {
-    name: "Trip Guide",
+    name: "Costlytical",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "“Costlytical” is a cost-estimation system for the 3D printing industry, that automatically generates quotations for 3D models uploaded by customers. It is capable of analyzing the 3D models and producing an accurate quotation within several seconds.",
     tags: [
       {
-        name: "nextjs",
+        name: "Node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+    ],
+    image: costlytical,
+    link: "https://github.com/opulence-2021",
+    icon: github,
+    iconBg: "black-gradient",
+  },
+  {
+    name: "HashVault",
+    description:
+      "“HashVault” is an all-in-one locally installed password manager that keeps users' passwords and other sensitive information and credentials safe for all at the convenience of a single master key.",
+    tags: [
+      {
+        name: "Java",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "JavaFX",
         color: "pink-text-gradient",
       },
     ],
-    image: appStore,
-    link: "",
+    image: hashvault,
+    link: "https://github.com/opulence-2021",
     icon: github,
     iconBg: "black-gradient",
   },
