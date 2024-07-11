@@ -53,11 +53,6 @@ import hashvault from "./hashvault.png";
 import failsafeVm from "./failsafeVm.png";
 import printDetection from "./printDetection.png";
 
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 export {
   logo,
   backend,
@@ -110,7 +105,4 @@ export {
   hashvault,
   failsafeVm,
   printDetection,
-  carrent,
-  jobit,
-  tripguide,
 };
