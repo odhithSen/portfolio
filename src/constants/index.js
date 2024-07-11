@@ -44,6 +44,7 @@ import {
   travel,
   costlytical,
   hashvault,
+  failsafeVm,
 } from "../assets";
 
 export const navLinks = [
@@ -449,4 +450,39 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const research = [
+  {
+    name: "VM Failure Prediction Using Real-time Anomaly Detection",
+    description:
+      "Predicting Virtual Machine failure due to hardware/software faults by analyzing the host logs, hypervisor logs and server resource usage data in real-time using a machine learning-based approach.",
+
+    tags: [
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TensorFlow",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Keras",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: failsafeVm,
+    link: "https://github.com/opulence-2021",
+    icon: github,
+    iconBg: "black-gradient",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, research };

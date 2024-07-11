@@ -50,6 +50,7 @@ import ema from "./ema.png";
 import travel from "./travel.png";
 import costlytical from "./costlytical.png";
 import hashvault from "./hashvault.png";
+import failsafeVm from "./failsafeVm.png";
 
 
 import carrent from "./carrent.png";
@@ -106,6 +107,7 @@ export {
   travel,
   costlytical,
   hashvault,
+  failsafeVm,
   carrent,
   jobit,
   tripguide,
