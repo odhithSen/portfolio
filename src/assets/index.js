@@ -51,6 +51,7 @@ import travel from "./travel.png";
 import costlytical from "./costlytical.png";
 import hashvault from "./hashvault.png";
 import failsafeVm from "./failsafeVm.png";
+import printDetection from "./printDetection.png";
 
 
 import carrent from "./carrent.png";
@@ -108,6 +109,7 @@ export {
   costlytical,
   hashvault,
   failsafeVm,
+  printDetection,
   carrent,
   jobit,
   tripguide,

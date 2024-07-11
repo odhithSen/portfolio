@@ -45,6 +45,7 @@ import {
   costlytical,
   hashvault,
   failsafeVm,
+  printDetection,
 } from "../assets";
 
 export const navLinks = [
@@ -479,6 +480,38 @@ const research = [
       },
     ],
     image: failsafeVm,
+    link: "https://github.com/opulence-2021",
+    icon: github,
+    iconBg: "black-gradient",
+  },
+  {
+    name: "Real-time Fault Detection in FDM 3D Printers Using Computer Vision",
+    description:
+      "Detecting 3D printing faults in real-time using computer vision and machine learning techniques by analyzing print layer consistency and filament deposition to enhance print quality, improve efficiency, and minimize material waste.",
+
+    tags: [
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TensorFlow",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Keras",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: printDetection,
     link: "https://github.com/opulence-2021",
     icon: github,
     iconBg: "black-gradient",
