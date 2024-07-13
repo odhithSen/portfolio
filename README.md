@@ -25,7 +25,7 @@ This is the source repository for my portfolio: [odhith.dev](https://odhith.dev)
 This application requires Node.js v16+ and yarn.
 
 ```bash
-git clone
+git clone https://github.com/odhithSen/portfolio.git
 cd portfolio
 npm install
 npm run dev
