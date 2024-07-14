@@ -18,7 +18,6 @@ const ProjectCard = ({
   iconBg,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -64,20 +63,19 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </motion.div>
   );
 };
 
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-      </motion.div>
+      </div>
 
       <div className="w-full flex">
-        <motion.p
+        <p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
@@ -86,7 +84,7 @@ const Works = () => {
           the code repositories and live demos. They highlight my ability to
           solve complex problems, work with various technologies, and manage
           projects effectively.
-        </motion.p>
+        </p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">

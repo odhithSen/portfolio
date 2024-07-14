@@ -18,7 +18,6 @@ const ProjectCard = ({
   iconBg,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -64,20 +63,19 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </motion.div>
   );
 };
 
 const Research = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div>
         <p className={`${styles.sectionSubText} `}>My research work</p>
         <h2 className={`${styles.sectionHeadText}`}>Research.</h2>
-      </motion.div>
+      </div>
 
       <div className="w-full flex">
-        <motion.p
+        <p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
@@ -86,7 +84,7 @@ const Research = () => {
           to full papers and additional resources. These works showcase my 
           proficiency in tackling intricate problems, utilizing a range of 
           methodologies, and making significant contributions to the field.
-        </motion.p>
+        </p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
