@@ -69,16 +69,16 @@ export const navLinks = [
 
 const services = [
   {
+    title: "Software Engineer",
+    icon: mobile,
+  },
+  {
     title: "Full Stack Developer",
     icon: web,
   },
   {
     title: "Entrepreneur",
     icon: backend,
-  },
-  {
-    title: "Robotics Engineer",
-    icon: mobile,
   },
   {
     title: "3D Designer",
@@ -245,7 +245,7 @@ const experiences = [
     ],
   },
   {
-    title: "Robotics Engineer",
+    title: "Robot Designer and Developer",
     company_name: "OP Robotics",
     company_website: "https://oprobotics.com",
     icon: OPRobotics,
@@ -418,7 +418,7 @@ const projects = [
       },
     ],
     image: hashvault,
-    link: "https://github.com/opulence-2021",
+    link: "https://github.com/odhithSen/HashVault",
     icon: github,
     iconBg: "black-gradient",
   },
@@ -453,7 +453,7 @@ const research = [
       },
     ],
     image: failsafeVm,
-    link: "https://github.com/opulence-2021",
+    link: "https://github.com/odhithSen/FailSafeVM_bff",
     icon: github,
     iconBg: "black-gradient",
   },
@@ -485,7 +485,7 @@ const research = [
       },
     ],
     image: printDetection,
-    link: "https://github.com/opulence-2021",
+    link: "https://github.com/odhithSen/PrintGuard",
     icon: github,
     iconBg: "black-gradient",
   },
