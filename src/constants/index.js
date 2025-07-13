@@ -38,6 +38,8 @@ import {
   OPRobotics,
   L3DP,
   WSO2,
+  Dinetap,
+  IIT,
   appStore,
   emailManager,
   ema,
@@ -46,6 +48,8 @@ import {
   hashvault,
   failsafeVm,
   printDetection,
+  aws,
+  azure,
 } from "../assets";
 
 export const navLinks = [
@@ -73,15 +77,15 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Full Stack Developer",
+    title: "Visiting Lecturer",
     icon: web,
   },
   {
-    title: "Entrepreneur",
+    title: "Researcher",
     icon: backend,
   },
   {
-    title: "3D Designer",
+    title: "Entrepreneur",
     icon: creator,
   },
 ];
@@ -189,6 +193,14 @@ const technologies = [
     icon: asgardeo,
   },
   {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Azure",
+    icon: azure,
+  },
+  {
     name: "postman",
     icon: postman,
   },
@@ -217,6 +229,33 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Visiting Lecturer",
+    company_name: "Informatics Institute of Technology",
+    company_website: "https://www.iit.ac.lk/",
+    icon: IIT,
+    iconBg: "#FFFFFF",
+    date: "Jan 2025 - Present",
+    points: [
+      "Conducting undergraduate-level lectures and tutorials for core Computer Science modules.",
+      "Providing mentorship and guidance to students on projects and research topics.",
+      "Assisting in student assessment through marking assignments, reports, and examinations.",
+    ],
+  },
+  {
+    title: "Associate Software Engineer",
+    company_name: "Dinetap (formerly EatMe Global)",
+    company_website: "https://dinetap.com/",
+    icon: Dinetap,
+    iconBg: "#FFFFFF",
+    date: "Nov 2024 - Present",
+    points: [
+      "Working as part of the backend engineering team to develop scalable and efficient payment processing systems.",
+      "Designing and implementing ETL (Extract, Transform, Load) pipelines using Python to process large-scale payment data.",
+      "Developing RESTful backend APIs and microservices using Node.js for payment-related features.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
   {
     title: "Software Engineer Intern",
     company_name: "WSO2",

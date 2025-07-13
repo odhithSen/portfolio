@@ -39,10 +39,15 @@ import python from "./tech/python.png";
 import rLang from "./tech/rLang.png";
 import solidWorks from "./tech/solidworks.png";
 import vite from "./tech/vitejs.svg";
+import aws from "./tech/aws.png";
+import azure from "./tech/Azure.png";
 
 import L3DP from "./company/L3dp.jpg";
 import WSO2 from "./company/Wso2.jpeg";
 import OPRobotics from "./company/OPRobotics.png";
+import EatMe from "./company/EatMe.png";
+import IIT from "./company/IIT.png";
+import Dinetap from "./company/Dinetap.png";
 
 import appStore from "./appStore.png";
 import emailManager from "./emailManager.png";
@@ -105,4 +110,9 @@ export {
   hashvault,
   failsafeVm,
   printDetection,
+  EatMe,
+  IIT,
+  Dinetap,
+  aws,
+  azure,
 };
